@@ -1310,28 +1310,27 @@ h1 {
   background-color: #F4F8FB;
   display: flex;
   justify-content: space-between;
-  margin-top: 85px;
+  margin-top: 87px;
+  margin-bottom: 65px;
 }
 .aeg img {
   margin-top: 23px;
 }
 .service-item {
-  height: 522px;
+  height: 458px;
 }
 .service-item h4 {
   text-transform: uppercase;
   font-size: 30px;
-  margin: 63px 0 26px 25px;
+  margin: 63px 0 25px 0;
 }
 .serv {
   width: 400px;
   line-height: 1.5;
-  margin-left: 25px;
   font-size: 14px;
 }
 .service-slider {
   margin-top: 73px;
-  margin-left: 25px;
   position: relative;
 }
 .service-slider input {
@@ -1505,7 +1504,6 @@ h1 {
 .future {
   display: flex;
   justify-content: space-between;
-  margin-top: 64px;
 }
 .p1 {
   font-size: 15px;
