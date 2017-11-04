@@ -1223,13 +1223,6 @@ h1 {
   background: url(../img/sprite/icon-sprites-2.png) no-repeat;
   background-position: -500px 0;
 }
-.new-catalog {
-  width: 60px;
-  height: 59px;
-  background: url(../img/new.png);
-  position: absolute;
-  right: 0;
-}
 .manufactur {
   background-color: #FAF5F1;
   height: 89px;
@@ -2034,9 +2027,9 @@ h1 {
 .sorting li {
   display: inline-block;
   font-size: 12px;
-  padding-top: 13px;
+  padding-top: 16px;
   height: 38px;
-  margin-right: 56px;
+  margin-right: 69px;
 }
 .sorting li p {
   font-size: 16px;
@@ -2044,7 +2037,7 @@ h1 {
   margin: 11px 0 0 -2px;
 }
 .sorting li p:first-child {
-  margin: 11px 0 0 -2px;
+  margin: 13px 0 0 0;
 }
 .sorting li:last-child {
   margin-right: 0px;
@@ -2052,13 +2045,13 @@ h1 {
   font-size: 13px;
 }
 .sorting li:nth-child(3) {
-  margin-right: 55px;
+  margin-right: 62px;
 }
 .sorting li:nth-child(4) {
-  margin-right: 33px;
+  margin-right: 45px;
 }
 .sorting li:nth-child(5) {
-  margin-right: 11px;
+  margin-right: 5px;
   width: 20px;
   font-size: 13px;
 }
@@ -2081,6 +2074,7 @@ h1 {
   color: #000;
 }
 .btn-sort {
+  padding: 0;
   color: #CCCCCC;
   border: none;
   background: #F8F3ED;
@@ -2116,12 +2110,11 @@ h1 {
 .price-group {
   border-bottom: 1px solid #CCCCCC;
   padding-bottom: 27px;
-  margin-bottom: 25px;
 }
 .price-group h3 {
   text-transform: uppercase;
   font-size: 20px;
-  margin: 0 0 16px 0;
+  margin: 2px 0 16px 0;
 }
 .range-controls {
   position: relative;
@@ -2176,7 +2169,8 @@ h1 {
 .ch-group p {
   font-size: 20px;
   padding-left: 0;
-  margin-bottom: -2px;
+  margin-bottom: -1px;
+  margin-top: 12px;
 }
 .ch-item input {
   display: none;
@@ -2265,7 +2259,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   width: 700px;
-  margin-top: 4px;
+  margin-top: 7px;
 }
 .paginator {
   width: 284px;
