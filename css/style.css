@@ -2079,6 +2079,7 @@ h1 {
 }
 .btn-gray {
   color: #CCCCCC;
+  border: none;
   background: #F8F3ED;
 }
 .btn-gray:hover {
