@@ -1448,7 +1448,7 @@ h1 {
 .sliderserv-img-3 {
   position: absolute;
   top: 0;
-  left: 205px;
+  left: 160px;
   width: 465px;
   height: 285px;
   background: url(../img/sprite/icon-sprites-2.png) no-repeat;
@@ -2009,7 +2009,6 @@ h1 {
 }
 .sorting {
   display: flex;
-  justify-content: space-between;
   margin-top: 4px;
 }
 .sorting ul {
@@ -2023,7 +2022,6 @@ h1 {
   border-radius: 3px;
 }
 .sorting li {
-  display: inline-block;
   font-size: 12px;
   padding-top: 16px;
   height: 38px;
