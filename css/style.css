@@ -2027,6 +2027,9 @@ h1 {
   height: 38px;
   margin-right: 69px;
 }
+.sorting li button {
+  border: none;
+}
 .sorting li p {
   font-size: 16px;
   text-transform: uppercase;
@@ -2058,7 +2061,6 @@ h1 {
 }
 .btn-red {
   color: #FF0000;
-  border: none;
   background: #F8F3ED;
   text-transform: uppercase;
   padding: 0;
@@ -2072,14 +2074,12 @@ h1 {
 .btn-sort {
   padding: 0;
   color: #CCCCCC;
-  border: none;
   background: #F8F3ED;
   text-transform: uppercase;
   border-bottom: 1px dotted #FF0000;
 }
 .btn-gray {
   color: #CCCCCC;
-  border: none;
   background: #F8F3ED;
 }
 .btn-gray:hover {
