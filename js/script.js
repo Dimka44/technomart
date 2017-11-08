@@ -1,5 +1,6 @@
 var link = document.querySelector('.link');
 var modal = document.querySelector(".modal");
+var modal2 = document.querySelector(".modal-catalog")
 var name = modal.querySelector("[name=nam]");
 var closeModal = modal.querySelector('.close');
 
@@ -7,10 +8,7 @@ var closeModal = modal.querySelector('.close');
 function openModal(e) {
   e.preventDefault();
   modal.classList.add("open");
-  }
-
-window.onload = function(e){
-if(document.getElementsByTagName('modal').name) alert('форма есть')
+  if(document.getElementById('name')) alert('div есть')
 }
 
 
@@ -24,24 +22,6 @@ closeModal.addEventListener('click', function(){
   modal.classList.remove('open');
 });
 
-
-
-
-//вторая модалка//
-var link2 = document.querySelector('.link');
-var modal2 = document.querySelector(".modal-catalog");
-
-
-function openModal(e) {
-  e.preventDefault();
-  modal-catalog.classList.add("open");
-  }
-
-
-link.addEventListener("click", function(e) {
-  e.preventDefault();
-  modal2.classList.toggle("open");
-});
 
 
 
