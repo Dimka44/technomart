@@ -1,12 +1,15 @@
-link.addEventListener("click", function(e) {
-  OpenModal('.link', '.modal')
-});
-
-(function OpenModal(link, modal) {
 var link = document.querySelector('.link');
 var modal = document.querySelector(".modal");
-var name = modal.querySelector("[name=nam]")
+var name = modal.querySelector("[name=nam]");
 var closeModal = modal.querySelector('.close');
+
+
+function openModal(e) {
+  e.preventDefault();
+  modal.classList.add("open");
+  }
+
+
 
 link.addEventListener("click", function(e) {
   e.preventDefault();
@@ -17,22 +20,31 @@ link.addEventListener("click", function(e) {
 closeModal.addEventListener('click', function(){
   modal.classList.remove('open');
 });
-})
 
 
 
+
+//вторая модалка//
 var link2 = document.querySelector('.link2');
 var modal2 = document.querySelector(".modal-catalog");
-var closeModal2 = modal2.querySelector('.close2');
+var closeModal2 = modal.querySelector('.close');
 
-link2.addEventListener("click", function(e) {
-	e.preventDefault();
-	modal2.classList.toggle("open2");
+
+function openModal(e) {
+  e.preventDefault();
+  modal-catalog.classList.add("open");
+
+  }
+
+
+link.addEventListener("click", function(e) {
+  e.preventDefault();
+  modal2.classList.toggle("open");
 });
 
-closeModal2.addEventListener('click', function(){
-	modal2.classList.remove('open2');
-});
+
+
+
 
 
 
