@@ -4,10 +4,7 @@ var modal2 = document.querySelector(".modal-catalog")
 var name = modal.querySelector("[name=nam]");
 var closeModal = modal.querySelector('.close');
 
-window.onload = function(){
-  alert(document.getElementById('modal') != null ? true : false);
-  alert(document.getElementById('[name=nam]') != null ? true : false);
-};
+
 
 
 
@@ -16,7 +13,9 @@ function openModal(e) {
   modal.classList.add("open");
 
 }
-
+window.onload = function(){
+  alert(document.getElementById('.name') != null ? true : false);
+};
 
 link.addEventListener("click", function(e) {
   e.preventDefault();
