@@ -8,7 +8,7 @@ var closeModal = modal.querySelector('.close');
 function openModal(e) {
   e.preventDefault();
   modal.classList.add("open");
-  if(document.getElementById('name')) alert('div есть')
+  if (document.getElementByClassName(".name"))
 }
 
 
