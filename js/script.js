@@ -13,9 +13,6 @@ function openModal(e) {
   modal.classList.add("open");
 
 }
-window.onload = function(){
-  alert(document.getElementById('.name') != null ? true : false);
-};
 
 link.addEventListener("click", function(e) {
   e.preventDefault();
