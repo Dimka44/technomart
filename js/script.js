@@ -9,6 +9,9 @@ function openModal(e) {
   modal.classList.add("open");
   }
 
+window.onload = function(e){
+if(document.getElementsByTagName('modal').name) alert('форма есть')
+}
 
 
 link.addEventListener("click", function(e) {
@@ -25,15 +28,13 @@ closeModal.addEventListener('click', function(){
 
 
 //вторая модалка//
-var link2 = document.querySelector('.link2');
+var link2 = document.querySelector('.link');
 var modal2 = document.querySelector(".modal-catalog");
-var closeModal2 = modal.querySelector('.close');
 
 
 function openModal(e) {
   e.preventDefault();
   modal-catalog.classList.add("open");
-
   }
 
 
