@@ -35,6 +35,10 @@ function openModal2(e) {
 	modal2.classList.toggle("open");
 }
 
+link2.addEventListener("click", function(e) {
+	openModal2(e);
+});
+
 var modal2 = document.querySelector(".modal-catalog");
 var link2 = document.querySelector(".link2");
 
