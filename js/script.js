@@ -23,7 +23,7 @@ closeModal.addEventListener('click', function(){
 });
 
 
-window.onload = function(e){
+window.onload = function(){
     alert(document.getElementByClassName("[name=nam]") != null ? true : false);
     alert(document.getElementByClassName('nonexistent_name') != null ? true : false);
 };
