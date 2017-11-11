@@ -1,8 +1,7 @@
-var link = document.querySelector('.link');
+var link = document.querySelector(".link");
 var modal = document.querySelector(".modal");
-var modal2 = document.querySelector(".modal-catalog")
 var name = modal.querySelector("[name=nam]");
-var closeModal = modal.querySelector('.close');
+var closeModal = modal.querySelector(".close");
 
 
 
@@ -10,19 +9,34 @@ var closeModal = modal.querySelector('.close');
 
 function openModal(e) {
   e.preventDefault();
-  modal.classList.add("open");
+  modal.classList.toggle("open");
+  nam.focus();
 
 }
 
 link.addEventListener("click", function(e) {
-  e.preventDefault();
-  modal.classList.toggle("open");
-  nam.focus();
+  openModal(e);
 });
 
 closeModal.addEventListener('click', function(){
   modal.classList.remove('open');
 });
+
+
+window.onload = function(e){
+    alert(document.getElementByClassName("[name=nam]") != null ? true : false);
+    alert(document.getElementByClassName('nonexistent_name') != null ? true : false);
+};
+
+
+
+function openModal2(e) {
+	e.preventDefault();
+	modal2.classList.toggle("open");
+}
+
+var modal2 = document.querySelector(".modal-catalog");
+var link2 = document.querySelector(".link2");
 
 
 
