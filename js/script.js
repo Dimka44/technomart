@@ -6,7 +6,6 @@ var modal2 = document.querySelector(".modal-catalog");
 
 function openModal(e) {
   e.preventDefault();
-  alert( document.getElementById("name") != null );
   modal.classList.toggle("open");
   nam.focus();
 }
