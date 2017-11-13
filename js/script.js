@@ -4,24 +4,15 @@ var name = modal.querySelector("[name=nam]");
 var closeModal = modal.querySelector(".close");
 var modal2 = document.querySelector(".modal-catalog");
 
-window.onload = function() {
-  alert( document.getElementById('name') != null );
-}
-
 function openModal(e) {
   e.preventDefault();
+  alert( document.getElementById("name") != null );
   modal.classList.toggle("open");
   nam.focus();
 }
 
-function openModal2(e) {
-  e.preventDefault();
-  modal-catalog.classList.toggle("open")
-}
-
 link.addEventListener("click", function(e) {
   openModal(e);
-  openModal2(e);
 });
 
 closeModal.addEventListener('click', function(){
