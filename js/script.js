@@ -2,45 +2,32 @@ var link = document.querySelector(".link");
 var modal = document.querySelector(".modal");
 var name = modal.querySelector("[name=nam]");
 var closeModal = modal.querySelector(".close");
+var modal2 = document.querySelector(".modal-catalog");
 
-
-
-
+window.onload = function() {
+  alert( document.getElementById('name') != null );
+}
 
 function openModal(e) {
   e.preventDefault();
   modal.classList.toggle("open");
   nam.focus();
+}
 
+function openModal2(e) {
+  e.preventDefault();
+  modal-catalog.classList.toggle("open")
 }
 
 link.addEventListener("click", function(e) {
   openModal(e);
+  openModal2(e);
 });
 
 closeModal.addEventListener('click', function(){
   modal.classList.remove('open');
 });
 
-
-window.onload = function(){
-    alert(document.getElementByClassName("[name=nam]") != null ? true : false);
-    alert(document.getElementByClassName('nonexistent_name') != null ? true : false);
-};
-
-
-
-function openModal2(e) {
-	e.preventDefault();
-	modal2.classList.toggle("open");
-}
-
-link2.addEventListener("click", function(e) {
-	openModal2(e);
-});
-
-var modal2 = document.querySelector(".modal-catalog");
-var link2 = document.querySelector(".link2");
 
 
 
